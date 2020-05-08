@@ -1,5 +1,5 @@
 function bubbleSort(arr, callback){
-    console.log(arr);
+    console.log("\n\nArray without sorting  " +arr+ "\n");
     
     var len = arr.length,
     i, j, stop;
