@@ -26,6 +26,3 @@ function geek2(callBack3){
 geek2(function addition(a,b){
     console.log(a+b);
 })
-
-///////////   Examplet 4//////////////////////
-
