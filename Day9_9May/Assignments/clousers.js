@@ -1,4 +1,5 @@
 //Example 1
+//closures are mainly used in data security in program
 
 function show(){
     var j="This called in outer function"
@@ -10,7 +11,6 @@ function show(){
     }innerFunction();
 }
 show();
-
 
 //Example 2
 
