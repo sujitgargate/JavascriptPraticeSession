@@ -1,7 +1,6 @@
-
 var async = require('async')
 var fs = require('fs')
-var file=fs.readFile('intTextFile.txt')
+
 
     function readFile(file){
         return new Promise(function(resolve, reject){
@@ -42,7 +41,8 @@ var file=fs.readFile('intTextFile.txt')
             } catch (error) {
                 reject(error)
             }
-        })        
+        })
+        
 }
-console.log(readFile());
- 
+
+module.exports = readFile;
